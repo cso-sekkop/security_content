@@ -34,7 +34,7 @@ jobs:
         run: |
           contentctl build --enrichments
           
-          sed -i 's/\.escu\./\.sekkop\./g' dist/DA-ESS-ContentUpdate-latest/default/savedsearches.conf
+          sed -i 's/\.escu\./\.sekkop\./g' dist/DA-ESS-ContentUpdate/default/savedsearches.conf
           rm dist/DA-ESS-ContentUpdate-latest.tar.gz
           tar -czf dist/DA-ESS-ContentUpdate-latest.tar.gz dist/DA-ESS-ContentUpdate 
           
