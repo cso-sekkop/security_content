@@ -47,3 +47,9 @@ jobs:
           name: content-latest
           path: |
             artifacts/DA-ESS-ContentUpdate-latest.tar.gz
+      - name: create release
+        uses: softprops/action-gh-release@v2.2.1
+        with:
+          files: artifacts/DA-ESS-ContentUpdate-latest.tar.gz
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
