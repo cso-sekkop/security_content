@@ -51,6 +51,6 @@ jobs:
         uses: softprops/action-gh-release@v2.2.1
         with:
           files: artifacts/DA-ESS-ContentUpdate-latest.tar.gz
-          tag: ${{ github.sha }}
+          name: ${{ github.sha }}
         env:
           GITHUB_TOKEN: ${{ secrets.OAUTH_TOKEN }}
