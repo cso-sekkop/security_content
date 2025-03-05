@@ -16,6 +16,7 @@
         <img src="https://img.shields.io/github/stars/splunk/security_content?style=social" /></a>
 </p>
 
+Action Trigger : A
 
 # Splunk Security Content
 ![security_content](docs/static/escu_sb.png)
